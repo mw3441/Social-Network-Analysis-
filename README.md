@@ -36,7 +36,7 @@ We can graph the direct connection and visualize each of the graphs and color th
 ![get on with](./get_on_with.pdf)
 ![work with](./work_with.pdf)
 
-###Centrality Measures
+### Centrality Measures
 Degree centrality means the number of ties that a node has, so it means the same thing for each of networks. If one node has more connections, it will have higher centrality, it will be more important in that case.
 
 Closeness centrality is a way of detecting nodes that are able to spread information very efficiently through a graph. The closeness centrality of a node measures its average farness (inverse distance) to all other nodes. Nodes with a high closeness score have the shortest distances to all other nodes.
@@ -45,9 +45,26 @@ Betweenness centrality (or "betweeness centrality") is a measure of centrality i
 
 All three centrality measures are useful from different aspect, but as same usefullness.
 
+### Simple Structures
+We can count the number of dyads and the number and type of triads using rstudio commands.
+
+The metrics showed the network "get on with" has the most paris of connections. So the network has a good performance for expressing the relationships of different nodes in this dataset.
+
+By some command about cliques, we can have the answer for the following:
+
+What is the size of the largest cliques(s) in each of the three networks?
+
+Which nodes/vertices are in the largest cliques for the three networks? Is there much overlap?
+
+How many **maximal cliques** are there in each of the networks?
+
+### Componets & Cutpoints
+
+Using the relevant command of articulation_points, we can see the cutpoints for "best friends" and "work with" are 13, and there is no articulation piints for "get on with".
+
 ## Resources
 
-## Videos
+### Videos
 
 [Williams, N. (2014). Basics of Social Network Analysis.](https://www.youtube.com/watch?v=PT99WF1VEws)
 
@@ -57,8 +74,6 @@ All three centrality measures are useful from different aspect, but as same usef
 
 [Complexity Labs. (2015). Network Clustering & Connectedness.](https://www.youtube.com/watch?v=2Oa7mef77nM)
 
-## Knowledge Check
-Once you have completed all tasks in the unit, please complete the [knowledge check](https://tccolumbia.qualtrics.com/jfe/form/SV_eJ0QJWNsklHsdro).
 
 ## Additional Materials
 [iGraph. (2016). Get Started with R iGraph](http://igraph.org/r/#docs)
