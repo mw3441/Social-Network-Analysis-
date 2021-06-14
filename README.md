@@ -32,7 +32,18 @@ Then we can use count and select functions to get the edge and vertex for each t
 ### Visualize the Networks
 We can graph the direct connection and visualize each of the graphs and color the nodes according to gender.
 
-![social network analysis p1](./best_friends.pdf)
+![best friends](./best_friends.pdf)
+![get on with](./get_on_with.pdf)
+![work with](./work_with.pdf)
+
+###Centrality Measures
+Degree centrality means the number of ties that a node has, so it means the same thing for each of networks. If one node has more connections, it will have higher centrality, it will be more important in that case.
+
+Closeness centrality is a way of detecting nodes that are able to spread information very efficiently through a graph. The closeness centrality of a node measures its average farness (inverse distance) to all other nodes. Nodes with a high closeness score have the shortest distances to all other nodes.
+
+Betweenness centrality (or "betweeness centrality") is a measure of centrality in a graph based on shortest paths. Betweenness centrality finds wide application in network theory; it represents the degree to which nodes stand between each other. 
+
+All three centrality measures are useful from different aspect, but as same usefullness.
 
 ## Resources
 
