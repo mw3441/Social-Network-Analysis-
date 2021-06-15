@@ -62,6 +62,10 @@ How many **maximal cliques** are there in each of the networks?
 
 Using the relevant command of articulation_points, we can see the cutpoints for "best friends" and "work with" are 13, and there is no articulation piints for "get on with".
 
+### Summary
+
+Based on all the information and analysis we did above, 6, 8, 11 are popular in this 7th grade class since they have the highest degree centrality in different networks. 13 is the bridge for connections. Girls tend to have more connection with girls, and so do boys. Based on the analysis, students can be formed as group by gender. Or teacher can let students with different gender form groups so they can have time to know each other. This reflect my experience, I used to play with girls a lot and hardly talked to boys. 
+
 ## Resources
 
 ### Videos
